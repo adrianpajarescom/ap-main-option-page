@@ -24,6 +24,12 @@ function ap_tools_settings_section_callback(  ) {
 
 }
 
+function ap_tools_settings_section_02_callback(  ) { 
+
+	echo __( 'Section 02', 'td_ap_tools' );
+
+}
+
 function ap_tools_options_page(  ) { 
 
 		?>
