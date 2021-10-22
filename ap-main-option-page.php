@@ -18,9 +18,9 @@ function ap_tools_add_admin_menu(  ) {
 }
 
 
-function ap_tools_settings_section_callback(  ) { 
+function ap_tools_settings_section_callback_main(  ) { 
 
-	echo __( 'SECTION MAIN This section description', 'td_ap_tools' );
+	echo __( 'If you have some question, please contact with us at adrian@adrianpajares.com', 'td_ap_tools' );
 
 }
 
