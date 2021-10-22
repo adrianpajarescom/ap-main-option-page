@@ -4,7 +4,7 @@
  * Plugin Name:       adrianpajares.com - AP Tools
  * Plugin URI:        https://adrianpajares.com/
  * Description:       This plugin is neccesary to activate page settings.
- * Version:           1.0
+ * Version:           2.0
  * Author:            adrianpajares.com
  * License:           MIT
 */
@@ -21,12 +21,6 @@ function ap_tools_add_admin_menu(  ) {
 function ap_tools_settings_section_callback(  ) { 
 
 	echo __( 'If you have some question, please contact with us at adrian@adrianpajares.com', 'td_ap_tools' );
-
-}
-
-function ap_tools_settings_section_02_callback(  ) { 
-
-	echo __( 'Section 02', 'td_ap_tools' );
 
 }
 
